@@ -108,7 +108,7 @@ with st.container():
     fig.update_traces(line=dict(color='#FF4B4B'), hovertemplate='Data: %{x|%d-%m-%Y}<br>Preço: %{y}')
     fig.update_layout(xaxis_title='Ano', 
                     yaxis_title='Preço (USD)', 
-                    paper_bgcolor='#d2d0d0',
+                    #paper_bgcolor='#d2d0d0',
                     showlegend=False
                     
                     )
