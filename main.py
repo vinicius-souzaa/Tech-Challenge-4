@@ -5,7 +5,7 @@ from util.layout import layout_saida
 
 
 warnings.filterwarnings("ignore")
-locale.setlocale(locale.LC_ALL, "pt_BR.UTF-8")
+#locale.setlocale(locale.LC_ALL, "pt_BR.UTF-8")
 
 st.set_page_config(page_title='Tech Challenge 4', layout="wide")
 
