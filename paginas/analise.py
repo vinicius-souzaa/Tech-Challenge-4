@@ -150,7 +150,7 @@ with st.container():
         fig.update_layout(
             xaxis_title='Preço',
             yaxis_title='Recorrência das Faixas de Preço',
-            paper_bgcolor='#d2d0d0',
+            
         )
 
         # Atualizando a cor das barras
@@ -245,7 +245,7 @@ with st.container():
         fig.update_layout(title='Análise de Médias Móveis do Preço do Petróleo Brent (2020 - Hoje)',
                             xaxis_title='Data',
                             yaxis_title='Preço (USD)',
-                            paper_bgcolor='#d2d0d0',
+                            
                             xaxis=dict(tickformat='%Y'),
                             legend=dict(orientation="h", yanchor="top", y=1.1, xanchor="center", x=0.5),
                             )
@@ -323,7 +323,7 @@ with st.container():
             xaxis_title='Data',
             yaxis_title='Preço (USD) / Desvio Padrão',
             template='plotly_white',
-            paper_bgcolor='#d2d0d0',
+            
             xaxis=dict(tickformat='%Y'),
             legend=dict(orientation="h", yanchor="top", y=1.1, xanchor="center", x=0.5),
         )
