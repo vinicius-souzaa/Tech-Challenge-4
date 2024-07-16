@@ -108,7 +108,6 @@ with st.container():
     fig.update_traces(line=dict(color='#FF4B4B'), hovertemplate='Data: %{x|%d-%m-%Y}<br>Preço: %{y}')
     fig.update_layout(xaxis_title='Ano', 
                     yaxis_title='Preço (USD)', 
-                    #paper_bgcolor='#d2d0d0',
                     showlegend=False
                     
                     )
@@ -205,7 +204,7 @@ with st.container():
         fig.update_layout(title=f'Preço do Petróleo Brent - {evento["evento"]} ({evento["ano"]})',
                         xaxis_title='Data', 
                         yaxis_title='Preço (USD)', 
-                        paper_bgcolor='#d2d0d0',
+                        
                         xaxis=dict(tickformat='%B-%Y'),
                         legend=dict(orientation="h", yanchor="top", y=1.1, xanchor="center", x=0.5),
                         
@@ -284,7 +283,7 @@ with st.container():
         fig.update_layout(title=f'Preço do Petróleo Brent - {evento["evento"]} ({evento["ano"]})',
                         xaxis_title='Data', 
                         yaxis_title='Preço (USD)', 
-                        paper_bgcolor='#d2d0d0',
+                        
                         xaxis=dict(tickformat='%B-%Y'),
                         legend=dict(orientation="h", yanchor="top", y=1.1, xanchor="center", x=0.5),
                         
@@ -373,7 +372,7 @@ with st.container():
         fig.update_layout(title=f'Preço do Petróleo Brent - {evento["evento"]} ({evento["ano"]})',
                         xaxis_title='Data',
                         yaxis_title='Preço (USD)',
-                        paper_bgcolor='#d2d0d0',
+                        
                         xaxis=dict(range=[xlim_min, xlim_max], tickformat='%B-%Y'),
                         legend=dict(orientation="h", yanchor="top", y=1.1, xanchor="center", x=0.5),
                         )
@@ -465,7 +464,7 @@ with st.container():
         fig.update_layout(title=f'Preço do Petróleo Brent - {evento["evento"]} ({evento["ano"]})',
                         xaxis_title='Data', 
                         yaxis_title='Preço (USD)', 
-                        paper_bgcolor='#d2d0d0',
+                        
                         xaxis=dict(tickformat='%B-%Y'),
                         legend=dict(orientation="h", yanchor="top", y=1.1, xanchor="center", x=0.5),
                         )
@@ -515,7 +514,7 @@ with st.container():
         fig.update_layout(title=f'Preço do Petróleo Brent - {evento["evento"]} ({evento["ano"]})',
                         xaxis_title='Data', 
                         yaxis_title='Preço (USD)', 
-                        paper_bgcolor='#d2d0d0',
+                        
                         xaxis=dict(tickformat='%B-%Y'),
                         legend=dict(orientation="h", yanchor="top", y=1.1, xanchor="center", x=0.5),
                         
@@ -627,7 +626,7 @@ with st.container():
         fig.update_layout(title=f'Preço do Petróleo Brent - {evento["evento"]} ({evento["ano"]})',
                         xaxis_title='Data', 
                         yaxis_title='Preço (USD)', 
-                        paper_bgcolor='#d2d0d0',
+                        
                         xaxis=dict(tickformat='%B-%Y'),
                         legend=dict(orientation="h", yanchor="top", y=1.1, xanchor="center", x=0.5),
                         )
@@ -701,7 +700,7 @@ with st.container():
         fig.update_layout(title=f'Preço do Petróleo Brent - {evento["evento"]} ({evento["ano"]})',
                         xaxis_title='Data', 
                         yaxis_title='Preço (USD)', 
-                        paper_bgcolor='#d2d0d0',
+                        
                         xaxis=dict(tickformat='%B-%Y'),
                         legend=dict(orientation="h", yanchor="top", y=1.1, xanchor="center", x=0.5),
                         )
@@ -777,7 +776,7 @@ with st.container():
         fig.update_layout(title='Preço do Petróleo Brent - Crise Financeira Global e Bolha Imobiliária nos EUA (2008-2009)',
                         xaxis_title='Data', 
                         yaxis_title='Preço (USD)', 
-                        paper_bgcolor='#d2d0d0',
+                        
                         xaxis=dict(tickformat='%B-%Y'),
                         legend=dict(orientation="h", yanchor="top", y=1.1, xanchor="center", x=0.5),
                         )
@@ -867,7 +866,7 @@ with st.container():
         fig.update_layout(title=f'Preço do Petróleo Brent - {evento["evento"]} ({evento["ano"]})',
                         xaxis_title='Data', 
                         yaxis_title='Preço (USD)', 
-                        paper_bgcolor='#d2d0d0',
+                        
                         xaxis=dict(tickformat='%B-%Y'),
                         legend=dict(orientation="h", yanchor="top", y=1.1, xanchor="center", x=0.5),
                         )
@@ -951,7 +950,7 @@ with st.container():
         fig.update_layout(title=f'Preço do Petróleo Brent - {evento["evento"]} ({evento["ano"]})',
                         xaxis_title='Data', 
                         yaxis_title='Preço (USD)', 
-                        paper_bgcolor='#d2d0d0',
+                        
                         xaxis=dict(tickformat='%B-%Y'),
                         legend=dict(orientation="h", yanchor="top", y=1.15, xanchor="center", x=0.5),
                         )
@@ -1030,7 +1029,7 @@ with st.container():
         fig.update_layout(title=f'Preço do Petróleo Brent - {evento["evento"]} ({evento["ano"]})',
                         xaxis_title='Data',
                         yaxis_title='Preço (USD)',
-                        paper_bgcolor='#d2d0d0',
+                        
                         xaxis=dict(range=[xlim_min, xlim_max], tickformat='%B-%Y'),
                         legend=dict(orientation="h", yanchor="top", y=1.1, xanchor="center", x=0.5),
                         )
@@ -1106,7 +1105,7 @@ with st.container():
         fig.update_layout(title=f'Preço do Petróleo Brent - {evento["evento"]} (2014)',
                         xaxis_title='Data',
                         yaxis_title='Preço (USD)',
-                        paper_bgcolor='#d2d0d0',
+                        
                         xaxis=dict(range=[xlim_min, xlim_max], tickformat='%d-%m-%Y'),
                         legend=dict(orientation="h", yanchor="top", y=1.1, xanchor="center", x=0.5),
                         )
@@ -1183,7 +1182,7 @@ with st.container():
         fig.update_layout(title=f'Preço do Petróleo Brent - {evento["evento"]} ({evento["ano"]})',
                         xaxis_title='Data',
                         yaxis_title='Preço (USD)',
-                        paper_bgcolor='#d2d0d0',
+                        
                         xaxis=dict(range=[xlim_min, xlim_max], tickformat='%B-%Y'),
                         legend=dict(orientation="h", yanchor="top", y=1.1, xanchor="center", x=0.5),
                         )
@@ -1271,7 +1270,7 @@ with st.container():
         fig.update_layout(title=f'Preço do Petróleo Brent - {evento["evento"]} (2018 a 2019)',
                         xaxis_title='Data',
                         yaxis_title='Preço (USD)',
-                        paper_bgcolor='#d2d0d0',
+                        
                         xaxis=dict(range=[xlim_min, xlim_max], tickformat='%B-%Y'),
                         legend=dict(orientation="h", yanchor="top", y=1.1, xanchor="center", x=0.5),
                         )
@@ -1339,7 +1338,7 @@ with st.container():
         fig.update_layout(title=f'Preço do Petróleo Brent - {evento["evento"]} (2019)',
                         xaxis_title='Data',
                         yaxis_title='Preço (USD)',
-                        paper_bgcolor='#d2d0d0',
+                        
                         xaxis=dict(tickformat='%d-%m-%Y'),
                         legend=dict(orientation="h", yanchor="top", y=1.1, xanchor="center", x=0.5),
                         )
@@ -1411,7 +1410,7 @@ with st.container():
         fig.update_layout(title=f'Preço do Petróleo Brent - {evento["evento"]} ({evento["ano"]})',
                         xaxis_title='Data',
                         yaxis_title='Preço (USD)',
-                        paper_bgcolor='#d2d0d0',
+                        
                         xaxis=dict(tickformat='%B-%Y'),
                         legend=dict(orientation="h", yanchor="top", y=1.1, xanchor="center", x=0.5),
                         )
@@ -1492,7 +1491,7 @@ with st.container():
         fig.update_layout(title=f'Preço do Petróleo Brent - {evento["evento"]} ({evento["ano"]})',
                         xaxis_title='Data',
                         yaxis_title='Preço (USD)',
-                        paper_bgcolor='#d2d0d0',
+                        
                         xaxis=dict(tickformat='%B-%Y'),
                         legend=dict(orientation="h", yanchor="top", y=1.1, xanchor="center", x=0.5),
                         )
