@@ -117,7 +117,7 @@ with st.container():
 
     st.markdown("""
             <h1 style='text-align:justify; 
-            font-size:100px;
+            font-size:10px;
             font-family: Arial, sans-serif; 
             font-weight: normal;
             line-height:1.5'>
