@@ -14,7 +14,7 @@ layout_saida()
 col1,col2 = st.columns([1,1])
 
 with col1:
-    st.header(f":black[Tech Challenge 4]")
+    st.header("Tech Challenge 4])
 
 with col2:
     st.image("imagens/fiap-logo.jpg", width=280)
