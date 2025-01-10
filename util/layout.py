@@ -7,6 +7,9 @@ def format_number(number, format='%0.0f'):
     return locale.format(format, number, grouping=True)
 
 def layout_saida():
+
+    st.html("<style>[data-testid='stHeaderActionElements'] {display: none;}</style>")
+    
     show_pages(
         [
             Page("./main.py", "Tech Challenge 4", "🛠️"),
