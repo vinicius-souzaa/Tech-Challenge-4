@@ -30,9 +30,7 @@ def layout_saida():
                     font-weight: normal;>
 
                     Vinicius Abreu Ernestino Souza\n
-                    RM 353049\n
-                    Fernando Abud Rojas Marin\n
-                    RM353098
+                    RM 353049
                     </h1>
                     """, unsafe_allow_html=True)
        
