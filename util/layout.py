@@ -22,7 +22,7 @@ def layout_saida():
     )
 
     with st.sidebar:
-        st.subheader("Alunos - Grupo 22 - Turma 3DTAT")
+        st.subheader("Grupo 22 - Turma 3DTAT")
         
         st.markdown("""
                     <h1 style=font-size:16px; 
