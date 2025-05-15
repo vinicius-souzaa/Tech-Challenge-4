@@ -4,7 +4,7 @@ from util.layout import layout_saida
 
 st.set_page_config(
     page_title="Introdução | Tech Challenge 4",
-    layout="wide",
+    layout="wide",page_icon="📰"
 )
 
 layout_saida()
