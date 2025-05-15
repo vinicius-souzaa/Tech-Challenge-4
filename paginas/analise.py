@@ -9,7 +9,7 @@ from util.layout import layout_saida, format_number
 
 st.set_page_config(
     page_title="Analise Exploratória de Dados (EDA)} | {Tech Challenge 4",
-    layout="wide",
+    layout="wide",page_icon="📊"
 )
 
 layout_saida()
