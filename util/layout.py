@@ -1,7 +1,7 @@
 import streamlit as st
 import locale
 from st_pages import show_pages, Page
-
+from streamlit.source_util import page_icon_and_name
 
 def format_number(number, format='%0.0f'):
     return locale.format(format, number, grouping=True)
